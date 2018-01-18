@@ -1,0 +1,29 @@
+/* You can add global styles to this file, and also import other style files */
+
+#page {
+    background-color: #f4f4f4;
+    position: relative;
+    height: 100%;
+}
+
+#green-btn {
+    background-color: #6db420;
+    box-shadow: 2px 2px #aaa;
+    color: #fff;
+}
+
+#black-btn {
+    background-color: #474c55;
+    box-shadow: 2px 2px #aaa;
+    color: #fff;
+}
+
+#yellow-btn {
+    background-color: #fec01e;
+    box-shadow: 2px 2px #aaa;
+    color: #fff;
+}
+
+html {
+    background-color: #484d55;
+}

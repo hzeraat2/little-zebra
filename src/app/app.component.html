@@ -1,0 +1,72 @@
+<app-header></app-header>
+
+<div class="container-fluid" id="page">
+    <div id="donate">
+        <div class="text-center">
+            <h4>DONATE TODAY</h4>
+            <br>
+            <p>Help protecting the planet today, become a Little Zebra ambassador</p>
+        </div>
+        <div>
+
+            <div id="widget">
+                <div class="row">
+                    <div class="col-8" id="form-update">
+                        <h4 class="text-center" id="green-theme">MAKE A DONATION</h4>
+                        <br>
+                        <div class="form-group">
+                            <label for="selectanimal">I want to help</label>
+                            <select class="form-control" (change)="chooseAnimal($event)">
+                                <option>a giraffe</option>
+                                <option>a tiger</option>
+                                <option>a rhino</option>
+                            </select>
+                            <br>
+
+                            <label for="">I want to donate&nbsp;
+                        </label><span class="amount-box icon-bar">£3</span>&nbsp;<span class="amount-box icon-bar">
+                        £5</span>&nbsp;<span class="amount-box icon-bar">£10</span> or <input type="text" value="£" style="width:18%;" class="amount-box2 icon-bar">
+                            <br><br>
+                            <input type="checkbox"><label for="">&nbsp;I want to do a monthly donation</label>
+                            <br><br>
+                            <button class="btn my-2 my-sm-0" id="green-btn" type="submit">Donate Now</button>
+                        </div>
+                        <br><br>
+
+                    </div>
+                    <div class="col"><span id="img-container" class="float-right"></span></div>
+
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <div id="what-we-do">
+        <div class="container">
+
+            <div class="text-center">
+                <h4>What we do</h4>
+                <p>Discover more about the Little Zebra foundation and how you can help us</p>
+            </div><br>
+            <div class="row">
+                <div class="col-6">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut aliquet, magna sit amet suscipit laoreet, ante velit scelerisque massa, ac mattis ex magna et turpis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.</p>
+
+                    <p>Aliquam efficitur tellus vitae erat laoreet sodales. Donec mollis, augue nec feugiat accumsan, ante dui aliquet ante, sit amet vestibulum ligula ex non mi. Nunc quis imperdiet leo, blandit maximus orci. Phasellus porttitor test eros magna, et viverra massa cursus ut. Cras nec est et urna ullamcorper volutpat et tristique augue. Nullam sit amet odio eget tortor rhoncus volutpat nec sed ipsum. Vivamus semper a ligula a sodales.</p>
+
+                    <p>Morbi mi dui, luctus ac vestibulum in, dapibus id ante. Vivamus eu odio non mi finibus dapibus a a erat. Cras commodo pharetra sapien, non ultrices nisl egestas eu.</p>
+                </div>
+                <div class="col-4">
+                    <div id="tiger"></div>
+                </div>
+            </div>
+
+
+            <button class="btn my-2 my-sm-0" id="black-btn" type="submit">Our history</button>&nbsp;
+            <button class="btn my-2 my-sm-0" id="yellow-btn" type="submit">Get involved</button>
+        </div>
+    </div>
+</div>
+
+
+<app-footer></app-footer>
